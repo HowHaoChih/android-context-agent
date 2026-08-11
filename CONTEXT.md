@@ -4,9 +4,9 @@
 |---|---|
 | Product | LabContext Agent |
 | Project directory | `09-Android-Context-Agent` |
-| Document version | 1.0 |
+| Document version | 1.1 |
 | Decision date | 2026-08-11 |
-| Current phase | `/to-prd` complete; awaiting document approval |
+| Current phase | `/to-tickets` complete; implementation plan awaiting approval |
 | MVP target | Android research-lab equipment context assistant |
 
 ## 1. Authority and ownership
@@ -121,8 +121,10 @@ The approved baseline as of 2026-08-11 is:
 
 - Kotlin and Jetpack Compose.
 - JDK 17.
+- Android Gradle Plugin `9.3.1`.
+- Gradle Wrapper `9.6.1`.
 - `minSdk = 26`.
-- `compileSdk = 36`.
+- `compileSdk = 36.1`.
 - `targetSdk = 36`.
 - ADK for Kotlin/Android pinned to `0.7.0`.
 - Internal development namespace `dev.labcontext.agent`.
@@ -219,14 +221,14 @@ Gemini Nano validation on a supported, locked-bootloader device is a progressive
 The required sequence is:
 
 1. `/grill-me`: complete.
-2. `/to-prd`: documents generated; awaiting user review.
-3. `/to-tickets`: not started.
+2. `/to-prd`: approved.
+3. `/to-tickets`: complete; implementation plan awaiting approval.
 4. `/superpowers` and `/gsd`: not started.
 5. `/implement-ticket`: not started.
 6. `/prove-it`: not started.
 7. Completion Report: not started.
 
-The next authorized action after document approval is `/to-tickets`. No application scaffolding or implementation is authorized before that approval.
+The `/to-tickets` artifacts are complete and under user review. No application scaffolding or implementation is authorized before the ticket plan is approved.
 
 ## 12. Decision references
 

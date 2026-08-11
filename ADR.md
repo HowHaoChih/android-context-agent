@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Version | 1.0 |
+| Version | 1.1 |
 | Date | 2026-08-11 |
 | Scope | Android Context Agent MVP |
 
@@ -64,7 +64,7 @@ ADK for Kotlin/Android enables Android-native agent orchestration but is a Previ
 
 ### Decision
 
-Use Kotlin, Jetpack Compose, JDK 17, `minSdk 26`, `compileSdk 36`, and `targetSdk 36`. Pin ADK for Kotlin/Android to `0.7.0` for the initial implementation. Use the internal development namespace `dev.labcontext.agent`.
+Use Kotlin, Jetpack Compose, JDK 17, Android Gradle Plugin `9.3.1`, Gradle Wrapper `9.6.1`, `minSdk 26`, `compileSdk 36.1`, and `targetSdk 36`. Pin ADK for Kotlin/Android to `0.7.0` for the initial implementation. Use the internal development namespace `dev.labcontext.agent`.
 
 ADK, Firebase, ML Kit, and model types remain behind project-owned interfaces and adapters. Dependency upgrades require an ADR update and full regression verification.
 

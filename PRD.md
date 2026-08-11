@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Version | 1.0 |
-| Status | Approved design; awaiting written-spec review |
+| Version | 1.1 |
+| Status | Approved |
 | Date | 2026-08-11 |
 | Product owner | User |
 | Implementation owner | Android Context Agent workspace |
@@ -296,7 +296,7 @@ The app uses event-driven work and performs no continuous sampling. Additional b
 ### NFR-006 — Compatibility
 
 - Minimum Android API 26.
-- Compile and target Android API 36.
+- Compile against Android API 36.1 and target Android API 36.
 - UI and mock/cloud paths run on AVD API 26 and API 36.
 - Gemini Nano is feature-gated by runtime capability checks and verified only on supported real devices.
 
